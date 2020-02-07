@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    background-color: #44A9F9;
+}
+
+.navigation-box {
+    
+}
+
+.navigation-wrapper {
+    
+}
+
+.header {
+    display: inline-flex;
+    background-color: #ffffff;
+    margin: 0em 15% 1em 15%;
+}
+
+.header img {
+    width: 70px;
+    height: 50px;
+    padding-left: 0.9em;
+}
+
+.main-items {
+    width: 55em;
+    padding: 2em 0em 1.2em 12em;
+}
+
+.main-items li {
+    display: inline;
+    margin-left: 20px;
+    padding: 0 1px 0 1px;
+}
