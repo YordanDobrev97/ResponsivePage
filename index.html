@@ -1,38 +1,52 @@
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>SoftUni</title>
     <link rel="stylesheet" href="./styles/main.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-box">
       <section class="navigation">
         <div class="navigation-box">
           <div class="navigation-wrapper">
             <div class="header">
               <div class="logo">
-                <img src="data:image/png;base64,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">
+                <img src="data:image/png;base64,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"/>
               </div>
-                <div class="main-items">
-                  <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Curriculum</a></li>
-                    <li><a href="#">Training</a></li>
-                    <li><a href="#">Professions</a></li>
-                    <li><a href="#">Certificates</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Fees</a></li>
-                    <li><a href="#">Blog</a></li>
+              <div class="main-items">
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Curriculum</a></li>
+                  <li><a href="#">Training</a></li>
+                  <li><a href="#">Professions</a></li>
+                  <li><a href="#">Certificates</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Fees</a></li>
+                  <li><a href="#">Blog</a></li>
                 </ul>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                </div>
-              </div> 
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="main-header">
+           <div class="content">
+              Become a Software Developer<br>Learn to code and start your career
+           </div>
+           <p>Enroll in our end-to end program. Start now with free course</p>
+           <button class="apply-button">Apply</button>
+           <button class="curriculum-button">Curriculum</button>
+           <div class="video">
+            <iframe src="https://www.youtube.com/embed/RitbpPmYmiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+        </div>
+
+        More content
       </section>
 
       <section class="about">
@@ -56,113 +70,97 @@
       <section class="program-curriculum">
         <div class="program-container">
           <div class="box">
-              <div class="title">
-                 Apply and Start Learning
-              </div>
+            <div class="title">Apply and Start Learning</div>
 
-              <div class="apply-details">
-                Free two-month entry course
-              </div>
+            <div class="apply-details">Free two-month entry course</div>
+          </div>
+          <div class="box">
+            <div class="title">Entry Exam</div>
+            <div class="entry-exam-details">Pass the exam and enroll in the software engineering program</div>
           </div>
 
           <div class="box">
-            <div class="title">
-               Entry Exam
-            </div>
-
-            <div class="entry-exam-details">
-              Pass the exam and enroll in the software engineering program
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="title">
-               Build the Foundation
-            </div>
-
+            <div class="title">Build the Foundation</div>
             <div class="foundation-details">
-              <div class="program-details">
-                Pass the exam and enroll in the software engineering program
-              </div>
-              <div class="module">
-                Fundamentals Module - <br>4 months
-              </div>
+              <div class="program-details">Pass the exam and enroll in the software engineering program</div>
+              <div class="module">Fundamentals Module - <br />4 months</div>
             </div>
           </div>
 
-          <div class="box"> 
+          <div class="box">
             <div class="acquire-profession-details">
               <div class="professions-details">
-                  <p>C# Web Dev</p>
-                  <p>Java Web Dev</p>
-                  <p>JavaScript Web Dev</p>
-                  <p>Python Web Dev</p>
-                </div>
-              <div class="profession-module">
-                  Professional Modules - <br>8 - 16 months
+                <p>C# Web Dev</p>
+                <p>Java Web Dev</p>
+                <p>JavaScript Web Dev</p>
+                <p>Python Web Dev</p>
               </div>
-            </div>
-          </div> 
-
-          <div class="box">
-            <div class="title">
-               Start a Career
-            </div>
-
-            <div class="start-career-details">
-                Access our career center, receive career support and start your dream job
+              <div class="profession-module">Professional Modules - <br />8 - 16 months</div>
             </div>
           </div>
 
           <div class="box">
-            <div class="title">
-               Graduation
-            </div>
-
-            <div class="graduation-details">
-               Receive a diploma recognize by the industry and issued by SoftUni
-            </div>
+            <div class="title">Start a Career</div>
+            <div class="start-career-details">Access our career center, receive career support and start yourdream job</div>
           </div>
 
+          <div class="box">
+            <div class="title">
+              Graduation
+            </div>
+            <div class="graduation-details">Receive a diploma recognize by the industry and issued by SoftUni</div>
+          </div>
         </div>
       </section>
 
       <section class="training-details">
         <div class="training-details-container">
-            <h1>Live and Interactive Learning</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus et possimus aperiam reprehenderit. Velit tempore provident blanditiis, nemo quas explicabo cumque eum molestias, ipsa voluptates deserunt? Debitis, nostrum aspernatur?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente, quia nobis repellat ut harum modi, consequatur sunt esse soluta rem enim error debitis qui sed doloremque saepe reprehenderit quisquam.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum accusamus quo nobis earum! Debitis non obcaecati voluptates, minima, beatae aliquid aperiam necessitatibus libero sed nam iure amet ipsum qui.</p>
+          <h1>Live and Interactive Learning</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus et possimus aperiam reprehenderit. Velit tempore provident blanditiis, nemo quas explicabo cumque eum molestias, ipsa voluptates deserunt? Debitis, nostrum aspernatur?
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente, quia nobis repellat ut harum modi, consequatur sunt esse soluta rem enim error debitis qui sed doloremque saepe reprehenderit quisquam.
+          </p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum accusamus quo nobis earum! Debitis non obcaecati voluptates, minima, beatae aliquid aperiam necessitatibus libero sed nam iure amet ipsum qui.
+          </p>
         </div>
 
-        <div class="partnerships"> 
-            <h2>Start your career in </h2>
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-        </div> 
+        <div class="partnerships">
+          <h2>Start your career in</h2>
+          <img src="" />
+          <img src="" />
+          <img src="" />
+          <img src="" />
+          <img src="" />
+          <img src="" />
+        </div>
       </section>
 
       <section class="feedback-students">
-          <div class="feedback-container">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque quod numquam esse rem unde quaerat nisi exercitationem quas quidem tempora similique, molestiae nesciunt a incidunt. Iure delectus eum neque.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo consectetur aliquam officia vel tenetur ducimus? Soluta dicta ipsum voluptate ea odio eveniet expedita illo dolor nobis nemo, laudantium voluptas.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam velit in nostrum vitae deleniti, maiores illo facere ut quaerat tempore, voluptas, sit doloribus vel dolorum repellendus voluptatem necessitatibus cumque!</p>
-          </div>
+        <div class="feedback-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborumcumque quod numquam esse rem unde quaerat nisi exercitationem quasquidem tempora similique, molestiae nesciunt a incidunt. Iuredelectus eum neque.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veroexplicabo consectetur aliquam officia vel tenetur ducimus? Solutadicta ipsum voluptate ea odio eveniet expedita illo dolor nobisnemo, laudantium voluptas.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsamvelit in nostrum vitae deleniti, maiores illo facere ut quaerattempore, voluptas, sit doloribus vel dolorum repellendus voluptatemnecessitatibus cumque!
+          </p>
+        </div>
 
-          <div class="feedback-container">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque quod numquam esse rem unde quaerat nisi exercitationem quas quidem tempora similique, molestiae nesciunt a incidunt. Iure delectus eum neque.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo consectetur aliquam officia vel tenetur ducimus? Soluta dicta ipsum voluptate ea odio eveniet expedita illo dolor nobis nemo, laudantium voluptas.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam velit in nostrum vitae deleniti, maiores illo facere ut quaerat tempore, voluptas, sit doloribus vel dolorum repellendus voluptatem necessitatibus cumque!</p>
-          </div>
+        <div class="feedback-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborumcumque quod numquam esse rem unde quaerat nisi exercitationem quasquidem tempora similique, molestiae nesciunt a incidunt. Iuredelectus eum neque.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veroexplicabo consectetur aliquam officia vel tenetur ducimus? Solutadicta ipsum voluptate ea odio eveniet expedita illo dolor nobisnemo, laudantium voluptas.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsamvelit in nostrum vitae deleniti, maiores illo facere ut quaerattempore, voluptas, sit doloribus vel dolorum repellendus voluptatemnecessitatibus cumque!
+          </p>
+        </div>
 
-          <div class="feedback-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque quod numquam esse rem unde quaerat nisi exercitationem quas quidem tempora similique, molestiae nesciunt a incidunt. Iure delectus eum neque.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo consectetur aliquam officia vel tenetur ducimus? Soluta dicta ipsum voluptate ea odio eveniet expedita illo dolor nobis nemo, laudantium voluptas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam velit in nostrum vitae deleniti, maiores illo facere ut quaerat tempore, voluptas, sit doloribus vel dolorum repellendus voluptatem necessitatibus cumque!</p>
+        <div class="feedback-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque quod numquam esse rem unde quaerat nisi exercitationem quas quidem tempora similique, molestiae nesciunt a incidunt. Iure delectus eum neque.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo consectetur aliquam officia vel tenetur ducimus? Soluta dicta ipsum voluptate ea odio eveniet expedita illo dolor nobis nemo, laudantium voluptas.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsamvelit in nostrum vitae deleniti, maiores illo facere ut quaerattempore, voluptas, sit doloribus vel dolorum repellendus voluptatemnecessitatibus cumque!
+          </p>
         </div>
       </section>
     </main>
@@ -171,27 +169,26 @@
       <h1>Award Winning Educational Institution</h1>
 
       <div class="awards">
-          <div class="educational-platform">
-            <img src="">
-            <h2>Educational Platform for 2015</h2>
-            <p>Bulgarian Web Awards</p>
-          </div>
+        <div class="educational-platform">
+          <img src="" />
+          <h2>Educational Platform for 2015</h2>
+          <p>Bulgarian Web Awards</p>
+        </div>
 
-          <div class="category-organization">
-            <img src="">
-            <h2>Category Organization 2017</h2>
-            <p>Baroque</p>
-          </div>
+        <div class="category-organization">
+          <img src="" />
+          <h2>Category Organization 2017</h2>
+          <p>Baroque</p>
+        </div>
       </div>
 
       <div class="engineering-program">
-          <h2>Explore our Software Engineering Program</h2>
-          <p>Start with a free Programming Basics training, begin your career in the IT sector and graduate as full stack developer!</p>
+        <h2>Explore our Software Engineering Program</h2>
+        <p>Start with a free Programming Basics training, begin your career inthe IT sector and graduate as full stack developer!</p>
 
-          <button class="apply-button">Apply</button>
-          <button class="curriculum-button">Curriculum</button>
-
+        <button class="apply-button">Apply</button>
+        <button class="curriculum-button">Curriculum</button>
       </div>
     </footer>
-</body>
+  </body>
 </html>

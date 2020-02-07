@@ -46,6 +46,54 @@
   color: #000000;
 }
 
+.content,
+.main-header > p {
+  padding-left: 11em;
+  padding-top: 3em;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+}
+
+.main-header > p {
+  font-size: 13px;
+  padding-left: 18%;
+}
+
+.apply-button, .curriculum-button {
+  margin: 5px 0px 0px 240px;
+  text-transform: uppercase;
+}
+.apply-button {
+    position: absolute;
+    background-color: #fffefe;
+    color: #0080ff;
+    font-size: 14px;
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.curriculum-button {
+  margin-left: 350px;
+  background-color: #44A9F9;
+  color: #fff;
+  padding: 11px 18px;
+  font-size: 12px;
+  opacity: 1;
+  border: 1px solid #fff !important;
+}
+
+.video {
+  margin: -10em 60em 2em 43em;
+}
+
+.video iframe {
+  width: 330;
+  height: 215;
+}
+
 @media screen and (max-width: 1024) {
   .main-items {
     padding: 25px 0px 12px 5%;
@@ -62,15 +110,15 @@
     margin: 0em 15% 1em 10%;
   }
   .main-items {
-    font-size: 12px; 
+    font-size: 12px;
     padding: 25px 0px 12px 8%;
   }
 }
 
 @media screen and (max-width: 700px) {
-    .main-items {
-        width: 25em;
-    }
+  .main-items {
+    width: 25em;
+  }
   .main-items ul {
     display: none;
     font-size: 12px;
@@ -92,22 +140,22 @@
 }
 
 @media screen and (max-width: 530px) {
-    .main-items {
-        width: 25em;
-    }
-
-    .main-items span {
-        display: block;
-        width: 33px;
-        height: 4px;
-        margin-bottom: 5px;
-        position: relative;
-    
-        background: #cdcdcd;
-        border-radius: 3px;
-    
-        z-index: 1;
-    
-        transform-origin: 4px 0px;
-      }
+  .main-items {
+    width: 25em;
   }
+
+  .main-items span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+  }
+}
