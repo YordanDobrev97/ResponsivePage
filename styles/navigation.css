@@ -102,6 +102,18 @@
   .header {
     margin: 0em 15% 1em 8%;
   }
+  .content {
+    padding-left: 9em;
+    font-size: 10px;
+  }
+  .video {
+    margin: -10em 0em 2em 1px;
+  }
+  .video iframe {
+    width: 230px;
+    height: 100px;
+  }
+
 }
 
 @media screen and (max-width: 950px) {
@@ -112,6 +124,30 @@
   .main-items {
     font-size: 12px;
     padding: 25px 0px 12px 8%;
+  }
+  .content {
+    padding-left: 7em;
+    font-size: 15px;
+  }
+  .video {
+    margin: -9em 0em 2em 30em;
+  }
+  .video iframe {
+    width: 220px;
+    height: 120px;
+  }
+  .main-header > p {
+      padding-left: 11%;
+      font-size: 11px;
+  }
+  .apply-button {
+    margin: 3px 20px 3px 110px;
+  }
+  .curriculum-button {
+    margin: 3px 20px 3px 202px;
+  }
+  .main-header > p {
+      margin-top: -22px;
   }
 }
 
@@ -137,25 +173,55 @@
 
     transform-origin: 4px 0px;
   }
+  .content {
+    padding-left: 12em;
+    font-size: 12px;
+    padding-top: 1em;
+  }
+  .video {
+    margin: 2em 0em 0em 7em;
+  }
+  .video iframe {
+    width: 225px;
+    height: 125px;
+  }
+  .apply-button {
+    margin: 3px 20px 3px 112px;
+  }
+  .curriculum-button {
+    margin: 3px 20px 3px 202px;
+  }
+  .main-header > p {
+      margin-top: -22px;
+  }
 }
 
 @media screen and (max-width: 530px) {
   .main-items {
     width: 25em;
   }
-
   .main-items span {
     display: block;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #cdcdcd;
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
+  }
+  .content  {
+    padding-left: 3em;
+    font-size: 19px;
+  }
+  .apply-button {
+    margin: 3px 20px 3px 112px;
+  }
+  .curriculum-button {
+    margin: 3px 20px 3px 202px;
+  }
+  .main-header > p {
+      margin-top: -22px;
   }
 }
