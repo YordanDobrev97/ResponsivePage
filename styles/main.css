@@ -87,4 +87,39 @@
 
 .module {
     padding-left: 7px;
+    background-color: #8340B1;
+}
+
+.professions-container {
+    font-size: 14px;
+    top: 105%;
+    left: 47%;
+    position: absolute;
+    padding: 0.8em;
+}
+
+.profession {
+    box-shadow: inset 0 0 10px #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.professions-details {
+    box-shadow: inset 0 0 10px #000000;
+    background-color: #FFA100;
+    padding: 17px;
+    color: #ffffff;
+}
+
+.profession-module {
+    box-shadow: inset 0 0 10px #000000;
+    background-color:#CC8000;
+    padding: 17px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.professions-details {
+    text-align: center;
 }
