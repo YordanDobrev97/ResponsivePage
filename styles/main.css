@@ -1,2 +1,7 @@
 @import './navigation.css';
 @import './header-about.css';
+
+.background-image {
+    width: 100%;
+}
+
