@@ -46,8 +46,11 @@
   color: #000000;
 }
 
-.content,
-.main-header > p {
+.main-header {
+  padding-bottom: 3px;
+}
+
+.content, .main-header > p {
   padding-left: 11em;
   padding-top: 3em;
   color: #ffffff;
