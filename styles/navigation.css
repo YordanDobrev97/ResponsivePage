@@ -105,7 +105,7 @@
   .header {
     margin: 0em 15% 1em 8%;
   }
-  .content {
+  .content, .main-header > p {
     padding-left: 9em;
     font-size: 10px;
   }
@@ -215,7 +215,7 @@
     transform-origin: 4px 0px;
   }
   .content  {
-    padding-left: 3em;
+    padding-left: 6em;
     font-size: 19px;
   }
   .apply-button {
@@ -225,6 +225,6 @@
     margin: 3px 20px 3px 202px;
   }
   .main-header > p {
-      margin-top: -22px;
+      padding-left: 21%;
   }
 }

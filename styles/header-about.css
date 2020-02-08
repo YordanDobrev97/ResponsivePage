@@ -8,17 +8,18 @@
 }
 
 .about-content h1 {
-  padding: 2.5em 9em;
+  padding: 2.5em 13rem;
 }
 
 .graduates-container {
-  margin: 40px;
-  padding: 27px;
-  margin-left: 70px;
-  width: 24em; 
-  height: 14em;
-  background-color: #2f95e9;
-  box-shadow: 4px 0 2px #222,  -4px 0 2px #222
+    margin: 1em;
+    padding: 3em;
+    /* margin-left: 4em; */
+    margin-left: 6em;
+    width: 19em;
+    height: 13em;
+    background-color: #2f95e9;
+    box-shadow: 4px 0 2px #222, -4px 0 2px #222;
 }
 
 .about {
@@ -34,8 +35,8 @@
 
 .success-rate-content {
   background-color: #2f95e9;
-  padding-left: 3em;
-  margin: 20px 47px 0px 37px;
+  padding-left: 2em;
+  /* margin: 20px 47px 0px 37px; */
 }
 
 .success-rate-content > h3 {
@@ -57,5 +58,47 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .graduates-container {
+    margin: 8px;
+    padding: 3em;
+    /* margin-left: 4em; */
+    width: 19em;
+    height: 13em;
+    background-color: #2f95e9;
+    box-shadow: 4px 0 2px #222, -4px 0 2px #222;
+  }
 
+  .success-rate-content {
+    background-color: #2f95e9;
+    padding-left: 0em;
+    margin: 6px 41px -2px 37px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .about-content {
+    margin: -6em;
+  }
+  .graduates-container {
+    display: block;
+    margin: 7em;
+    margin-left: 7em;
+  }
+  .about-content > p {
+    padding-left: 210px;
+    width: 39em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+  .about-content h1 {
+    padding: 93px 2px 3px 210px;
+  }
+}
+
+@media screen and (max-width: 700) {
+  .graduates-container {
+    display: block;
+    margin: 7em;
+    margin-left: 7em;
+  }
 }
