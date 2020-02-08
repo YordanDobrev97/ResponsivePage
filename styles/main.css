@@ -145,3 +145,26 @@
     padding-bottom: 95px;
     color: #ffffff;
 }
+
+.graduation-container {
+    font-size: 14px;
+    top: 103%;
+    left: 76%;
+    position: absolute;
+}
+
+.graduation {
+    box-shadow: inset 0 0 10px #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.graduation-details {
+    box-shadow: inset 0 0 10px #000000;
+    background-color: #42ABF8;
+    padding: 15px;
+    padding-bottom: 105px;
+    color: #ffffff;
+    text-align: center;
+}
