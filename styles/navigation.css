@@ -50,7 +50,8 @@
   padding-bottom: 3px;
 }
 
-.content, .main-header > p {
+.content,
+.main-header > p {
   padding-left: 11em;
   padding-top: 3em;
   color: #ffffff;
@@ -63,24 +64,25 @@
   padding-left: 18%;
 }
 
-.apply-button, .curriculum-button {
+.apply-button,
+.curriculum-button {
   margin: 5px 0px 0px 240px;
   text-transform: uppercase;
 }
 .apply-button {
-    position: absolute;
-    background-color: #fffefe;
-    color: #0080ff;
-    font-size: 14px;
-    padding: 11px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  position: absolute;
+  background-color: #fffefe;
+  color: #0080ff;
+  font-size: 14px;
+  padding: 11px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .curriculum-button {
   margin-left: 350px;
-  background-color: #44A9F9;
+  background-color: #44a9f9;
   color: #fff;
   padding: 11px 18px;
   font-size: 12px;
@@ -98,6 +100,9 @@
 }
 
 @media screen and (max-width: 1024) {
+  body {
+    width: 100%;
+  }
   .main-items {
     padding: 25px 0px 12px 5%;
     width: 43em;
@@ -105,18 +110,21 @@
   .header {
     margin: 0em 15% 1em 8%;
   }
-  .content, .main-header > p {
-    padding-left: 9em;
+  .content {
+    padding-left: 8em;
     font-size: 10px;
+  }
+  .main-header > p {
+    font-size: 13px;
+    padding-left: 23%;
   }
   .video {
     margin: -10em 0em 2em 1px;
   }
   .video iframe {
-    width: 230px;
-    height: 100px;
+    width: 305px;
+    height: 208px;
   }
-
 }
 
 @media screen and (max-width: 950px) {
@@ -140,8 +148,8 @@
     height: 120px;
   }
   .main-header > p {
-      padding-left: 11%;
-      font-size: 11px;
+    padding-left: 11%;
+    font-size: 11px;
   }
   .apply-button {
     margin: 3px 20px 3px 110px;
@@ -150,7 +158,7 @@
     margin: 3px 20px 3px 202px;
   }
   .main-header > p {
-      margin-top: -22px;
+    margin-top: -22px;
   }
 }
 
@@ -195,7 +203,7 @@
     margin: 3px 20px 3px 202px;
   }
   .main-header > p {
-      margin-top: -22px;
+    margin-top: -22px;
   }
 }
 
@@ -214,7 +222,7 @@
     z-index: 1;
     transform-origin: 4px 0px;
   }
-  .content  {
+  .content {
     padding-left: 6em;
     font-size: 19px;
   }
@@ -225,6 +233,6 @@
     margin: 3px 20px 3px 202px;
   }
   .main-header > p {
-      padding-left: 21%;
+    padding-left: 21%;
   }
 }
