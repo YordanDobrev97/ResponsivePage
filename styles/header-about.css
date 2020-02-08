@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-.about-content,
-.graduates-container {
+.about-content, .graduates-container {
   display: inline-block;
 }
 .about-content h1 {
-  padding-left: 11em;
-  padding: 3em 2em 3em 10em;
+  padding-left: 5em;
+  padding: 2em 2em 3em 10em;
 }
 
 .graduates-container {
@@ -20,6 +19,9 @@
   height: 14em;
   background-color: #2f95e9;
   box-shadow: 4px 0 2px #222,  -4px 0 2px #222
+}
+.about {
+  box-shadow: 5px 10px 18px #888888;
 }
 
 .about-content > p {
