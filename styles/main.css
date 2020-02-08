@@ -58,7 +58,7 @@
 
 .foundation-container {
     font-size: 14px;
-    top: 110%;
+    top: 108%;
     left: 31%;
     position: absolute;
     padding: 0.8em;
@@ -71,23 +71,19 @@
     text-transform: uppercase;
 }
 
-.foundation-details {
+.program-details {
     box-shadow: inset 0 0 10px #000000;
-    background-color: #9C5CC7;
+    background-color: #8340B1; 
     padding: 17px;
     color: #ffffff;
 }
 
-.program-details {
-    display: flex;
-    align-items: center;
-    border-bottom: 0.1em solid #ffffff;
-    margin: 10px
-}
-
 .module {
-    padding-left: 7px;
-    background-color: #8340B1;
+    box-shadow: inset 0 0 10px #000000;
+    background-color: #8340B1; 
+    padding: 17px;
+    color: #ffffff;
+    text-align: center;
 }
 
 .professions-container {
