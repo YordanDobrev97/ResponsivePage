@@ -1,0 +1,302 @@
+.background-image {
+  width: 100%;
+  height: 50%;
+  filter: contrast(50%);
+}
+
+.box {
+  display: inline-block;
+  background-color: rgb(214, 214, 127);
+}
+.apply-container {
+  font-size: 14px;
+  top: 124%;
+  left: 6%;
+  position: absolute;
+  padding: 5px;
+  width: 165px;
+}
+
+.apply {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffffff;
+  padding: 13px;
+  margin: -1px;
+  text-transform: uppercase;
+}
+
+.apply-details {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #3e4c5d;
+  padding: 13px;
+  color: #ffffff;
+  width: 155px;
+}
+
+.exam-container {
+  font-size: 14px;
+  top: 120%;
+  left: 19%;
+  position: absolute;
+  padding: 1px;
+  padding-bottom: 115px;
+}
+
+.exam {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.entry-exam-details {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #fc4a4f;
+  padding: 17px;
+  color: #ffffff;
+  width: 160px;
+  padding-bottom: 31px;
+}
+
+.foundation-container {
+  font-size: 14px;
+  top: 108%;
+  left: 31%;
+  position: absolute;
+  padding: 0.8em;
+}
+
+.foundation {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  text-transform: uppercase;
+  width: 163px;
+}
+
+.program-details {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #8340b1;
+  padding: 17px;
+  color: #ffffff;
+  width: 163px;
+  text-align: center;
+}
+
+.module {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #8340b1;
+  padding: 17px;
+  color: #ffffff;
+  width: 163px;
+  text-align: center;
+}
+
+.professions-container {
+  font-size: 14px;
+  top: 107%;
+  left: 45%;
+  position: absolute;
+}
+
+.profession {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  text-transform: uppercase;
+  width: 170px;
+}
+
+.professions-details {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffa100;
+  padding: 17px;
+  color: #ffffff;
+  width: 170px;
+}
+
+.profession-module {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #cc8000;
+  padding: 17px;
+  color: #ffffff;
+  text-align: center;
+  width: 170px;
+}
+
+.professions-details {
+  text-align: center;
+}
+
+.career-container {
+  font-size: 14px;
+  top: 105%;
+  left: 59%;
+  position: absolute;
+}
+
+.career {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.start-career-details {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #1ec05d;
+  padding: 15px;
+  padding-bottom: 115px;
+  color: #ffffff;
+  width: 160px;
+  text-align: center;
+}
+
+.graduation-container {
+  font-size: 14px;
+  top: 102%;
+  left: 72%;
+  position: absolute;
+}
+
+.graduation {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.graduation-details {
+  box-shadow: inset 0 0 10px #000000;
+  background-color: #42abf8;
+  padding: 15px;
+  padding-bottom: 140px;
+  color: #ffffff;
+  text-align: center;
+  width: 160px;
+}
+
+@media screen and (max-width: 1023px) {
+  .apply-container {
+    font-size: 12px;
+    top: 124%;
+    left: 0%;
+    position: absolute;
+    padding: 5px;
+  }
+
+  .exam-container {
+    font-size: 12px;
+    top: 120%;
+    left: 16%;
+    position: absolute;
+    padding: 1px;
+  }
+
+  .foundation-container {
+    top: 107%;
+    left: 31%;
+    text-align: center;
+  }
+  .professions-container {
+    font-size: 12px;
+    top: 105%;
+    left: 48%;
+    position: absolute;
+    padding: 0.8em;
+  }
+
+  .graduation-container {
+    font-size: 12px;
+    top: 97%;
+    left: 84%;
+    position: absolute;
+  }
+  .graduation-details {
+    padding-bottom: 180px;
+  }
+
+  .profession-module {
+    padding: 28px;
+  }
+
+  .career-container {
+    font-size: 12px;
+    top: 102%;
+    left: 67%;
+    position: absolute;
+  }
+  .start-career-details {
+    padding-bottom: 149px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .background-image {
+    height: 180%;
+  }
+  .graduation-container {
+    top: 275%;
+    left: 26%;
+  }
+  .graduation-details {
+    padding-bottom: 15px;
+    width: 346px;
+  }
+
+  .career-container {
+    top: 250%;
+    left: 25%;
+  }
+  .start-career-details {
+    padding-bottom: 10px;
+    width: 346px;
+  }
+
+  .professions-container {
+    top: 208%;
+    left: 23%;
+  }
+
+  .professions-details,
+  .profession-module {
+    width: 346px;
+    padding: 18px;
+  }
+
+  .profession {
+    width: 346px;
+  }
+  .foundation-container {
+    top: 175%;
+    left: 23%;
+  }
+  .program-details,
+  .module,
+  .foundation {
+    width: 341px;
+  }
+
+  .exam-container {
+    top: 150%;
+    left: 24%;
+  }
+  .entry-exam-details {
+    width: 348px;
+    padding-bottom: 20px;
+  }
+  .apply {
+    width: 355px;
+  }
+
+  .apply-container {
+    top: 126%;
+    left: 23%;
+    width: 354px;
+    text-align: center;
+  }
+  .apply-details {
+    width: 341px;
+    width: 354px;
+  }
+}
