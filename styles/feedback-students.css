@@ -1,0 +1,42 @@
+.feedback-students {
+    background-color: #F4F5F7;
+    height: 350px;
+    overflow: auto;
+    margin-top: -30px;
+    padding-left: 3em;
+}
+
+.feedback-container {
+    background-color: #ffffff;
+    padding-top: 590px;
+    text-align: center;
+    display: inline-block;
+    /* margin-top: 80px 20px; */
+    padding: 15px;
+    padding-bottom: -2px;
+    margin: 40px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    text-align: center;
+
+    border-radius: 25px;
+  border: 2px solid #ffffff;
+}
+
+.feedback-container > p {
+    width: 310px;
+    padding-top: 20px;
+}
+
+.feedback-student {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 651px;
+    margin-right: auto;
+    margin-top: -169px;
+}
+
+main > h3{
+    padding-left: 620px;
+}
