@@ -9,12 +9,12 @@
   background-color: rgb(214, 214, 127);
 }
 .apply-container {
-  font-size: 14px;
+  font-size: 13px;
   top: 124%;
-  left: 6%;
+  left: 12%;
   position: absolute;
   padding: 5px;
-  width: 165px;
+  width: 153px;
 }
 
 .apply {
@@ -30,13 +30,13 @@
   background-color: #3e4c5d;
   padding: 13px;
   color: #ffffff;
-  width: 155px;
+  width: 142px;
 }
 
 .exam-container {
-  font-size: 14px;
+  font-size: 13px;
   top: 120%;
-  left: 19%;
+  left: 24%;
   position: absolute;
   padding: 1px;
   padding-bottom: 115px;
@@ -54,14 +54,14 @@
   background-color: #fc4a4f;
   padding: 17px;
   color: #ffffff;
-  width: 160px;
+  width: 146px;
   padding-bottom: 31px;
 }
 
 .foundation-container {
-  font-size: 14px;
+  font-size: 13px;
   top: 108%;
-  left: 31%;
+  left: 35%;
   position: absolute;
   padding: 0.8em;
 }
@@ -71,7 +71,8 @@
   background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
-  width: 163px;
+  width: 153px;
+  text-align: center;
 }
 
 .program-details {
@@ -79,7 +80,7 @@
   background-color: #8340b1;
   padding: 17px;
   color: #ffffff;
-  width: 163px;
+  width: 153px;
   text-align: center;
 }
 
@@ -88,14 +89,14 @@
   background-color: #8340b1;
   padding: 17px;
   color: #ffffff;
-  width: 163px;
+  width: 153px;
   text-align: center;
 }
 
 .professions-container {
-  font-size: 14px;
+  font-size: 13px;
   top: 107%;
-  left: 45%;
+  left: 48%;
   position: absolute;
 }
 
@@ -104,7 +105,7 @@
   background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
-  width: 170px;
+  width: 160px;
 }
 
 .professions-details {
@@ -112,7 +113,7 @@
   background-color: #ffa100;
   padding: 17px;
   color: #ffffff;
-  width: 170px;
+  width: 160px;
 }
 
 .profession-module {
@@ -121,7 +122,7 @@
   padding: 17px;
   color: #ffffff;
   text-align: center;
-  width: 170px;
+  width: 160px;
 }
 
 .professions-details {
@@ -129,9 +130,9 @@
 }
 
 .career-container {
-  font-size: 14px;
+  font-size: 13px;
   top: 105%;
-  left: 59%;
+  left: 61%;
   position: absolute;
 }
 
@@ -140,6 +141,7 @@
   background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .start-career-details {
@@ -148,14 +150,14 @@
   padding: 15px;
   padding-bottom: 115px;
   color: #ffffff;
-  width: 160px;
+  width: 150px;
   text-align: center;
 }
 
 .graduation-container {
-  font-size: 14px;
+  font-size: 13px;
   top: 102%;
-  left: 72%;
+  left: 73%;
   position: absolute;
 }
 
@@ -173,7 +175,7 @@
   padding-bottom: 140px;
   color: #ffffff;
   text-align: center;
-  width: 160px;
+  width: 153px;
 }
 
 @media screen and (max-width: 1023px) {
