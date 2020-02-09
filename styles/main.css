@@ -1,5 +1,7 @@
-@import "./navigation.css";
-@import "./header-about.css";
+@import './navigation.css';
+@import './header-about.css';
 @import './program-curriculum.css';
 @import './training-details.css';
 @import './feedback-students.css';
+@import './footer.css';
+
