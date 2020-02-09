@@ -4,7 +4,20 @@
 }
 
 .title-training {
-    text-align: center;
+    padding-left: 11em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
+
+.content-training {
+    padding-left: 11em;
+    padding-bottom: 10px;
+}
+
+.content-training > p {
+    width: 60em;
+}
+
+
 
 
