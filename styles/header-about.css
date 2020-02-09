@@ -102,3 +102,18 @@
     margin-left: 7em;
   }
 }
+
+@media screen and (max-width:320px) {
+    .about-content > h1 {
+      padding: 121px 2px 3px 164px;
+    }
+    .about-content > p {
+      padding-left: 162px;
+      width: 28em;
+    }
+    .graduates-container {
+      margin: 7em;
+      margin-left: 1em;
+      width: 18em;
+    }
+}
