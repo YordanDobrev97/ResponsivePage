@@ -97,34 +97,6 @@
   height: 215;
 }
 
-@media (max-width:320px) {
-    body {
-      overflow: hidden;
-    }
-    .header {
-      margin-left: -2px;
-    }
-    .main-header {
-      margin-left: -76px;
-      margin-top: -9px;
-      padding-bottom: 44px;
-    }
-    .content > p {
-      font-size: 15px;
-      padding-left: 5px;
-      padding-left: 111px;
-    }
-    .apply-button, .curriculum-button {
-      margin-top: 20px;
-    }
-    .curriculum-button {
-      margin-left: 19em;
-    }
-    .video{
-      margin: 2em -3em -1em 7em;
-    }
-}
-
 @media screen and (max-width: 1024) {
   body {
     width: 100%;
@@ -260,5 +232,33 @@
   }
   .main-header > p {
     padding-left: 21%;
+  }
+}
+
+@media (max-width:320px) {
+  body {
+    overflow: hidden;
+  }
+  .header {
+    margin: 0em 15% 1em 0%;
+  }
+  .main-header {
+    margin-left: -76px;
+    margin-top: -9px;
+    padding-bottom: 44px;
+  }
+  .content > p {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-left: 111px;
+  }
+  .apply-button, .curriculum-button {
+    margin-top: 20px;
+  }
+  .curriculum-button {
+    margin-left: 19em;
+  }
+  .video{
+    margin: 2em -3em -1em 7em;
   }
 }
