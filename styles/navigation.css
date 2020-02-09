@@ -64,8 +64,7 @@
   padding-left: 18%;
 }
 
-.apply-button,
-.curriculum-button {
+.apply-button, .curriculum-button {
   margin: 5px 0px 0px 240px;
   text-transform: uppercase;
 }

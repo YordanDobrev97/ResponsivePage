@@ -66,5 +66,26 @@ footer > p {
     padding-left: 20em;
     margin-top: -13em;
     color: #ffffff;
+}
 
+.engineering-program > p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.buttons {
+  padding-left: 19em;
+  margin-top: 30px;
+}
+
+.button {
+    padding: 11px 44px;
+    font-size: 12px;
+    margin-left: 29em;
+    margin-top: 3px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    display: inline-block;
+    background: transparent;
 }
