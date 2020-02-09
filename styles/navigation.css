@@ -50,8 +50,7 @@
   padding-bottom: 3px;
 }
 
-.content,
-.main-header > p {
+.content, .main-header > p {
   padding-left: 11em;
   padding-top: 3em;
   color: #ffffff;
@@ -96,6 +95,34 @@
 .video iframe {
   width: 330;
   height: 215;
+}
+
+@media (max-width:320px) {
+    body {
+      overflow: hidden;
+    }
+    .header {
+      margin-left: -2px;
+    }
+    .main-header {
+      margin-left: -76px;
+      margin-top: -9px;
+      padding-bottom: 44px;
+    }
+    .content > p {
+      font-size: 15px;
+      padding-left: 5px;
+      padding-left: 111px;
+    }
+    .apply-button, .curriculum-button {
+      margin-top: 20px;
+    }
+    .curriculum-button {
+      margin-left: 19em;
+    }
+    .video{
+      margin: 2em -3em -1em 7em;
+    }
 }
 
 @media screen and (max-width: 1024) {
