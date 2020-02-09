@@ -99,7 +99,7 @@
   height: 215;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 641px) {
   .header {
     margin: 0em 15% 1em 0%;
   }
@@ -142,7 +142,7 @@
   }
 
   .program-container > img {
-      height: 200%;
+      height: 190%;
       width: 100%;
   }
 
@@ -150,18 +150,69 @@
       display: block;
   }
 
+  .apply-container {
+     margin-top: 31%;
+     margin-left: 10px;
+  }
+
+  section.program-curriculum > div > div.apply-container > div.apply-details {
+      width: 265%;
+  }
+
+  section.program-curriculum > div > div.apply-container > div.apply {
+      width: 265.8%;
+  }
+
+  .exam-container {
+      margin-top: 68%;
+      margin-left: -41px;
+  }
+
+  section.program-curriculum > div > div.exam-container > div.entry-exam-details {
+      width: 104%;
+  }
+
+  section.program-curriculum > div > div.exam-container > div.exam {
+      width: 104%;
+  }
+
+  .foundation-container {
+    margin-top: 118%;
+    margin-left: -100px;
+  }
+
+  section.program-curriculum > div > div.foundation-container > div.foundation {
+     width: 125%;
+  }
+
+  section.program-curriculum > div > div.foundation-container > div.foundation-details > .program-details {
+     width: 125%;
+  }
+
+  section.program-curriculum > div > div.foundation-container > div.foundation-details > div.module {
+     width: 125%;
+  }
+
   .professions-container {
-    margin-top: 153%;
+    margin-top: 164%;
     margin-left: -155px;
   }
 
-  .professions-container > .acquire-profession-details > p.profession-module {
-      padding-bottom: -320px;
+  section.program-curriculum > div > div.professions-container > div > p.profession-module {
+      width: 375px;
+  }
+  
+  section.program-curriculum > div > div.professions-container > div > p.profession {
+      width: 100%;
+  }
+  
+  section.program-curriculum > div > div.professions-container > div > div.professions-details {
+      width: 100%;
   }
 
   .career-container {
-    margin-top: 203%;
-    margin-left: -225px;
+    margin-top:219%;
+    margin-left: -220px;
   }
 
   .career-container > p, .graduation-container > p {
@@ -170,11 +221,14 @@
   }
 
   .graduation-container {
-      margin-top: 235%;
-      margin-left: -285px;
+      margin-top: 255%;
+      margin-left: -275px;
   }
 
   .graduation {
      text-align: center;
+  }
+  .video {
+      margin: 2em 60em 2em 5em;
   }
 }
