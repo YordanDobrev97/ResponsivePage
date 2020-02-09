@@ -57,5 +57,14 @@ footer > p {
 }
 
 .engineering-program > img {
-   width: 100%;
+    width: 80%;
+    height: 65%;
+    margin-left: 145px;
+}
+
+.engineering-program > h2 {
+    padding-left: 20em;
+    margin-top: -13em;
+    color: #ffffff;
+
 }
