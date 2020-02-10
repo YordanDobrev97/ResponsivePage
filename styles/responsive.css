@@ -5,6 +5,9 @@
     .navbar {
       margin-left: -5px;
     }
+    .main-items {
+        padding: 25px 0px 12px 46%;
+    }
     .main-items > ul > li {
       display: none;
     }
@@ -191,4 +194,4 @@
     footer > div.engineering-program > div > button.button {
        margin-left: 250px;
     }
-  }
+}
