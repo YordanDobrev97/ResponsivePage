@@ -15,7 +15,6 @@
       padding-bottom: 230px;
     }
     .navigation > span {
-      /* margin-top: -56px; */
       display: block;
       width: 33px;
       height: 4px;
@@ -32,25 +31,31 @@
         margin-top: -56px;
     }
     
+    .title-training {
+      padding-left: 7em;
+    }
     .title {
       padding-top: 6%;
-      margin-left: 72px;
+      margin-left: 25px;
       font-size: 16px;
+    }
+    .main > {
+      margin-bottom: -49px;
     }
 
     section.navigation > div.main > p {
-      margin-top: -17px;
+      margin-top: -15px;
       font-size: 14px;
-      margin-left: 72px;
+      margin-left: 24px;
       width: 32em;
     }
 
     .apply-button {
-      margin-left: 190px;
+      margin-left: 140px;
     }
 
     .video-container > iframe  {
-      margin: 23px 14em;
+      margin: 23px 11em;
     }
 
     .content {
@@ -61,10 +66,20 @@
       margin-top: -17px;
     }
     .curriculum-button {
-      margin-left: 340px;
+      margin-left: 285px;
     }
+
     .main {
       margin-bottom: -50px;
+    }
+    .about-content > h1 {
+      padding: 2.5em 17rem;
+    }
+    .about-content > p {
+      width: 582px;
+      padding-left: 19.6em;
+      margin-top: -3em;
+      font-size: 14px;
     }
     .about-content {
       margin-left: -120px;
@@ -83,7 +98,7 @@
     body > main > section.program-curriculum > div > div.apply-container {
        font-size: 13px;
        top: 183%;
-       left: 1%;
+       left: -4%;
        position: absolute;
        padding: 5px;
        width: 153px;
@@ -100,77 +115,75 @@
   
     .exam-container {
       font-size: 13px;
-      top: 105%;
-      left: 16.5%;
+      margin-top: -68em;
+      margin-left: 10em;
       position: absolute;
       padding: 1px;
       padding-bottom: 115px;
+     
     }
   
     section.program-curriculum > div > div.exam-container > div.entry-exam-details {
-        width: 104%;
+        width: 97%;
+        padding-bottom: 6px;
     }
   
     section.program-curriculum > div > div.exam-container > div.exam {
-        width: 104%;
+       width: 97%;
     }
   
     .foundation-container {
       font-size: 13px;
-      top: 94%;
-      left: 31%;
+      margin-top: -57em;
+      margin-left: 9em;
       position: absolute;
       padding: 0.8em;
     }
   
-    section.program-curriculum > div > div.foundation-container > div.foundation {
-       width: 125%;
+    section.program-curriculum > div > div.foundation-container > div.foundation, section.program-curriculum > div > div.foundation-container > div.foundation-details > .program-details, section.program-curriculum > div > div.foundation-container > div.foundation-details > div.module {
+      width: 119%;
     }
-  
-    section.program-curriculum > div > div.foundation-container > div.foundation-details > .program-details {
-       width: 125%;
-    }
-  
-    section.program-curriculum > div > div.foundation-container > div.foundation-details > div.module {
-       width: 125%;
-    }
-  
+
     .professions-container {
       font-size: 13px;
-      top: 96%;
-      left: 48%;
+      top: 292%;
+      left: -91%;
       position: absolute;
     }
   
     section.program-curriculum > div > div.professions-container > div > p.profession-module {
-      width: 442px;
+      width: 375px;
     }
     
     section.program-curriculum > div > div.professions-container > div > p.profession {
-        width: 100%;
+      width: 100%;
     }
     
     section.program-curriculum > div > div.professions-container > div > div.professions-details {
-        width: 100%;
+      width: 100%;
+    }
+    .career {
+      width: 29em;
     }
   
     .career-container {
       font-size: 13px;
-      top: 93%;
-      left: 65%;
+      top: 337%;
+      left: -121%;
       position: absolute;
+    }
+    .graduation-container {
+      margin-top: -13em;
+      margin-left: 9.8em;
     }
   
     .career-container > p, .graduation-container > p {
-        padding-bottom: 14px;
-        width: 446px;
+      padding-bottom: 9px;
+      width: 378px;
     }
   
-    .graduation-container {
-      font-size: 13px;
-      top: 89%;
-      left: 81%;
-      position: absolute;
+    section.about > div.graduates-container {
+      margin-left: 9.8em;
     }
   
     .graduation {
@@ -181,10 +194,10 @@
     }
   
     div.training-details-container > div:nth-child(2) > p, div.training-details-container > div:nth-child(3) > p {
-       width: 380px;
+      width: 481px;
     }
     .content-training > p {
-       margin-left: -90px;
+      margin-left: -67px;
     }
     .partnerships-career-container > h2 {
         font-size: 15px;
