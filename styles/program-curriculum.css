@@ -10,8 +10,8 @@
 }
 .apply-container {
   font-size: 13px;
-  top: 124%;
-  left: 12%;
+  margin-top: -11em;
+  margin-left: 11.4em;
   position: absolute;
   padding: 5px;
   width: 153px;
@@ -23,6 +23,8 @@
   padding: 13px;
   margin: -1px;
   text-transform: uppercase;
+  width: 11.9em;
+  text-align: center;
 }
 
 .apply-details {
@@ -30,13 +32,14 @@
   background-color: #3e4c5d;
   padding: 13px;
   color: #ffffff;
-  width: 142px;
+  width: 154px;
+  text-align: center;
 }
 
 .exam-container {
   font-size: 13px;
-  top: 120%;
-  left: 24%;
+  margin-top: -13em;
+  margin-left: 24.8em;
   position: absolute;
   padding: 1px;
   padding-bottom: 115px;
@@ -47,6 +50,7 @@
   background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .entry-exam-details {
@@ -54,14 +58,15 @@
   background-color: #fc4a4f;
   padding: 17px;
   color: #ffffff;
-  width: 146px;
+  width: 158px;
   padding-bottom: 31px;
+  text-align: center;
 }
 
 .foundation-container {
   font-size: 13px;
-  top: 108%;
-  left: 35%;
+  margin-top: -18.9em;
+  margin-left: 37.4em;
   position: absolute;
   padding: 0.8em;
 }
@@ -71,7 +76,7 @@
   background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
-  width: 153px;
+  width: 159px;
   text-align: center;
 }
 
@@ -80,7 +85,7 @@
   background-color: #8340b1;
   padding: 17px;
   color: #ffffff;
-  width: 153px;
+  width: 159px;
   text-align: center;
 }
 
@@ -89,15 +94,16 @@
   background-color: #8340b1;
   padding: 17px;
   color: #ffffff;
-  width: 153px;
+  width: 159px;
   text-align: center;
 }
 
 .professions-container {
   font-size: 13px;
-  top: 107%;
-  left: 48%;
+  margin-top: -19em;
+  margin-left: 51.8em;
   position: absolute;
+  text-align: center;
 }
 
 .profession {
@@ -131,8 +137,8 @@
 
 .career-container {
   font-size: 13px;
-  top: 105%;
-  left: 61%;
+  margin-top: -20em;
+  margin-left: 65.4em;
   position: absolute;
 }
 
@@ -156,8 +162,8 @@
 
 .graduation-container {
   font-size: 13px;
-  top: 102%;
-  left: 73%;
+  margin-top: -22em;
+  margin-left: 78em;
   position: absolute;
 }
 
