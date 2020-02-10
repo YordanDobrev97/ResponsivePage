@@ -1,0 +1,194 @@
+@media screen and (max-width: 641px) {
+    .header {
+      margin: 0em 15% 1em 0%;
+    }
+    .navbar {
+      margin-left: -5px;
+    }
+    .main-items > ul > li {
+      display: none;
+    }
+    .main-items span {
+      display: block;
+      width: 33px;
+      height: 4px;
+      margin-bottom: 5px;
+      margin-left: 170px;
+      position: relative;
+      background: #1156f6;
+      border-radius: 3px;
+      z-index: 1;
+      transform-origin: 4px 0px;
+    }
+    .content {
+      margin-left: -150px;
+      margin-top: -50px;
+    }
+    .main > p {
+      margin-top: -17px;
+    }
+    .apply-button {
+      margin-left: 85px;
+    }
+    .curriculum-button {
+      margin-left: 250px;
+    }
+    .main {
+      margin-bottom: -50px;
+    }
+    .about-content {
+      margin-left: -120px;
+    }
+  
+    .program-container > img {
+        height: 190%;
+        width: 100%;
+    }
+  
+    .program-container {
+        display: block;
+    }
+  
+    .apply-container {
+       margin-top: 31%;
+       margin-left: 10px;
+    }
+  
+    section.program-curriculum > div > div.apply-container > div.apply-details {
+        width: 265%;
+    }
+  
+    section.program-curriculum > div > div.apply-container > div.apply {
+        width: 265.8%;
+    }
+  
+    .exam-container {
+        margin-top: 68%;
+        margin-left: -41px;
+    }
+  
+    section.program-curriculum > div > div.exam-container > div.entry-exam-details {
+        width: 104%;
+    }
+  
+    section.program-curriculum > div > div.exam-container > div.exam {
+        width: 104%;
+    }
+  
+    .foundation-container {
+      margin-top: 118%;
+      margin-left: -100px;
+    }
+  
+    section.program-curriculum > div > div.foundation-container > div.foundation {
+       width: 125%;
+    }
+  
+    section.program-curriculum > div > div.foundation-container > div.foundation-details > .program-details {
+       width: 125%;
+    }
+  
+    section.program-curriculum > div > div.foundation-container > div.foundation-details > div.module {
+       width: 125%;
+    }
+  
+    .professions-container {
+      margin-top: 164%;
+      margin-left: -155px;
+    }
+  
+    section.program-curriculum > div > div.professions-container > div > p.profession-module {
+        width: 375px;
+    }
+    
+    section.program-curriculum > div > div.professions-container > div > p.profession {
+        width: 100%;
+    }
+    
+    section.program-curriculum > div > div.professions-container > div > div.professions-details {
+        width: 100%;
+    }
+  
+    .career-container {
+      margin-top:219%;
+      margin-left: -220px;
+    }
+  
+    .career-container > p, .graduation-container > p {
+        padding-bottom: 14px;
+        width: 380px;
+    }
+  
+    .graduation-container {
+        margin-top: 255%;
+        margin-left: -275px;
+    }
+  
+    .graduation {
+       text-align: center;
+    }
+    .video {
+        margin: 2em 60em 2em 5em;
+    }
+  
+    .title-training > h3 {
+        margin-left: -91px;
+    }
+  
+    div.training-details-container > div:nth-child(2) > p, div.training-details-container > div:nth-child(3) > p {
+       width: 380px;
+    }
+    .content-training > p {
+       margin-left: -90px;
+    }
+    .partnerships-career-container > h2 {
+        font-size: 15px;
+    }
+    .telenor, .smart-it, .indeavr {
+      display: none;
+    }
+  
+    section.training-details > div.partnerships > div.partnerships-career-container {
+         width: 40em;
+    }
+    .img-container > ul {
+        margin-top: 43px;
+        margin-left: -98px;
+    }
+    .student-image-container > img {
+        margin-left: 226px;
+    }
+    main > h3 {
+      margin-left: -425px;
+    }
+  
+    section.feedback-students > span:nth-child(1), section.feedback-students > span:nth-child(3) {
+        display: none;
+    }
+    .feedback-container > .top-student {
+        display: inline-block;
+    }
+    footer > div.awards > div.educational-platform {
+      display: none;
+    }
+    .category-organization {
+       margin-left: -650px;
+    }
+    footer > div.engineering-program > img {
+        width: 109%;
+        height: 66%;
+        margin-left: 0px;
+    }
+    footer > div.engineering-program > h2 {
+        padding-left: 1em;
+        margin-top: -13em;
+        width: 19em;
+        text-align: center;
+    }
+    .buttons {
+       margin-left: -280px;
+    }
+    footer > div.engineering-program > div > button.button {
+       margin-left: 250px;
+    }
+  }

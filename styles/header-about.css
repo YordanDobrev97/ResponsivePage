@@ -14,7 +14,6 @@
 .graduates-container {
     margin: 1em;
     padding: 3em;
-    /* margin-left: 4em; */
     margin-left: 6em;
     width: 19em;
     height: 13em;
@@ -36,7 +35,6 @@
 .success-rate-content {
   background-color: #2f95e9;
   padding-left: 2em;
-  /* margin: 20px 47px 0px 37px; */
 }
 
 .success-rate-content > h3 {
