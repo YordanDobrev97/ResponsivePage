@@ -9,6 +9,8 @@
 
 .about-content h1 {
   padding: 2.5em 13rem;
+  position: relative;
+  left: 110px;
 }
 
 .graduates-container {
@@ -26,8 +28,8 @@
 }
 
 .about-content > p {
-  width: 600px;
-  padding-left: 15em;
+  width: 640px;
+  padding-left: 23em;
   margin-top: -3em;
   font-size: 14px;
 }

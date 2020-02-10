@@ -12,7 +12,7 @@
 
 .navbar {
   height: 55px;
-  width: 43em;
+  width: 50em;
   background-color: #ffffff;
   display: inline-flex;
   margin: 0em -90% 1em 20%;
@@ -22,7 +22,7 @@
 
 .menu {
   line-height: 55px;
-  padding-left: 85px;
+  padding-left: 130px;
   width: 44em;
 }
 
@@ -44,35 +44,24 @@
   padding: 0;
 }
 
-.main-items {
-  padding: 25px 0px 12px 25%;
-  color: #000000;
-  border-radius: 15%;
-}
-
-.main-items li a {
-  text-decoration: none;
-  color: #000000;
-}
-
 .main {
   padding-bottom: 4px;
 }
 
 .title{
-  padding: 4% 20%;
+  padding: 4% 24%;
   color: #fff;
 }
 
 section.navigation > div.main > p {
   font-size: 11px;
-  padding-left: 20%;
+  padding-left: 24%;
   margin-top: -30px;
   color: #fff;
 }
 
 .apply-button {
-  margin: 10px 0px 0px 20%;
+  margin: 10px 0px 0px 24%;
   text-transform: uppercase;
   position: absolute;
   background-color: #fffefe;
@@ -85,7 +74,7 @@ section.navigation > div.main > p {
 }
 
 .curriculum-button {
-  margin: 10px 0px 0px 30%;
+  margin: 10px 0px 0px 36%;
   background-color: #44a9f9;
   color: #fff;
   padding: 10px 18px;
@@ -101,5 +90,5 @@ section.navigation > div.main > p {
    width: 200px;
    height: 150px;
    float: left;
-   margin: -160px 42em;
+   margin: -160px 49em;
 }
