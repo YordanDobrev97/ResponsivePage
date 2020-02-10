@@ -11,6 +11,9 @@
     .menu {
       display: none;
     }
+    body > header > section.navigation {
+      padding-bottom: 230px;
+    }
     .navigation > span {
       /* margin-top: -56px; */
       display: block;
@@ -28,6 +31,28 @@
     section.navigation > span:nth-child(2) {
         margin-top: -56px;
     }
+    
+    .title {
+      padding-top: 6%;
+      margin-left: 72px;
+      font-size: 16px;
+    }
+
+    section.navigation > div.main > p {
+      margin-top: -17px;
+      font-size: 14px;
+      margin-left: 72px;
+      width: 32em;
+    }
+
+    .apply-button {
+      margin-left: 190px;
+    }
+
+    .video-container > iframe  {
+      margin: 23px 14em;
+    }
+
     .content {
       margin-left: -150px;
       margin-top: -50px;
@@ -35,11 +60,8 @@
     .main > p {
       margin-top: -17px;
     }
-    .apply-button {
-      margin-left: 85px;
-    }
     .curriculum-button {
-      margin-left: 250px;
+      margin-left: 340px;
     }
     .main {
       margin-bottom: -50px;
@@ -137,10 +159,6 @@
     }
     .video {
         margin: 2em 60em 2em 5em;
-    }
-  
-    .title-training > h3 {
-        margin-left: -91px;
     }
   
     div.training-details-container > div:nth-child(2) > p, div.training-details-container > div:nth-child(3) > p {
