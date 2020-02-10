@@ -231,4 +231,65 @@
   .video {
       margin: 2em 60em 2em 5em;
   }
+
+  .title-training > h3 {
+      margin-left: -91px;
+  }
+
+  div.training-details-container > div:nth-child(2) > p, div.training-details-container > div:nth-child(3) > p {
+     width: 380px;
+  }
+  .content-training > p {
+     margin-left: -90px;
+  }
+  .partnerships-career-container > h2 {
+      font-size: 15px;
+  }
+  .telenor, .smart-it, .indeavr {
+    display: none;
+  }
+
+  section.training-details > div.partnerships > div.partnerships-career-container {
+       width: 40em;
+  }
+  .img-container > ul {
+      margin-top: 43px;
+      margin-left: -98px;
+  }
+  .student-image-container > img {
+      margin-left: 226px;
+  }
+  main > h3 {
+    margin-left: -425px;
+  }
+
+  section.feedback-students > span:nth-child(1), section.feedback-students > span:nth-child(3) {
+      display: none;
+  }
+  .feedback-container > .top-student {
+      display: inline-block;
+  }
+  footer > div.awards > div.educational-platform {
+    display: none;
+  }
+  .category-organization {
+     margin-left: -650px;
+  }
+  footer > div.engineering-program > img {
+      width: 109%;
+      height: 66%;
+      margin-left: 0px;
+  }
+  footer > div.engineering-program > h2 {
+      padding-left: 1em;
+      margin-top: -13em;
+      width: 19em;
+      text-align: center;
+  }
+  .buttons {
+     margin-left: -280px;
+  }
+  footer > div.engineering-program > div > button.button {
+     margin-left: 250px;
+  }
 }
