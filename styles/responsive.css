@@ -4,6 +4,7 @@
     }
     .navbar {
       margin-left: -5px;
+      width: 46em;
     }
     .menu {
         padding: 5px 0px 12px 46%;
@@ -13,13 +14,14 @@
     }
     body > header > section.navigation {
       padding-bottom: 230px;
+      width: 121%;
     }
     .navigation > span {
       display: block;
       width: 33px;
       height: 4px;
       margin-bottom: 5px;
-      margin-left: 33em;
+      margin-left: 43em;
       position: relative;
       background: #1156f6;
       border-radius: 3px;
@@ -51,11 +53,11 @@
     }
 
     .apply-button {
-      margin-left: 140px;
+      margin: 12px 0px 0px 14em;
     }
 
     .video-container > iframe  {
-      margin: 23px 11em;
+      margin: 23px 14em;
     }
 
     .content {
@@ -66,20 +68,23 @@
       margin-top: -17px;
     }
     .curriculum-button {
-      margin-left: 285px;
+      margin-left: 338px;
     }
 
     .main {
       margin-bottom: -50px;
     }
+    .about {
+      width: 121%;
+    }
     .about-content > h1 {
-      padding: 2.5em 17rem;
+      padding: 2.5em 10rem;
     }
     .about-content > p {
-      width: 582px;
-      padding-left: 19.6em;
+      width: 710px;
+      padding-left: 16.6em;
       margin-top: -3em;
-      font-size: 14px;
+      font-size: 16px;
     }
     .about-content {
       margin-left: -120px;
@@ -98,7 +103,7 @@
     body > main > section.program-curriculum > div > div.apply-container {
        font-size: 13px;
        top: 183%;
-       left: -4%;
+       left: 5%;
        position: absolute;
        padding: 5px;
        width: 153px;
@@ -116,7 +121,7 @@
     .exam-container {
       font-size: 13px;
       margin-top: -68em;
-      margin-left: 10em;
+      margin-left: 14em;
       position: absolute;
       padding: 1px;
       padding-bottom: 115px;
@@ -134,8 +139,8 @@
   
     .foundation-container {
       font-size: 13px;
-      margin-top: -57em;
-      margin-left: 9em;
+      margin-top: -59em;
+      margin-left: 13.2em;
       position: absolute;
       padding: 0.8em;
     }
@@ -146,8 +151,8 @@
 
     .professions-container {
       font-size: 13px;
-      top: 292%;
-      left: -91%;
+      top: 280%;
+      left: -81%;
       position: absolute;
     }
   
@@ -168,13 +173,12 @@
   
     .career-container {
       font-size: 13px;
-      top: 337%;
-      left: -121%;
+      top: 326%;
+      left: -110%;
       position: absolute;
     }
     .graduation-container {
-      margin-top: -11em;
-      margin-left: 9.8em;
+      margin: -15em 0px 0px 14.8em;
     }
   
     .career-container > p, .graduation-container > p {
@@ -183,7 +187,7 @@
     }
   
     section.about > div.graduates-container {
-      margin-left: 9.8em;
+      margin-left: 11.8em;
     }
   
     .graduation {
@@ -199,6 +203,9 @@
     .content-training > p {
       margin-left: -67px;
     }
+    .partnerships {
+      margin: 1em 0px 1em 10%;
+    }
     .partnerships-career-container > h2 {
         font-size: 15px;
     }
@@ -211,15 +218,26 @@
     }
     .img-container > ul {
         margin-top: 43px;
-        margin-left: -98px;
+        margin-left: -95px;
+    }
+    section.program-curriculum > div > img {
+      width: 121%;
     }
     .student-image-container > img {
-        margin-left: 226px;
+      margin-left: 330px; 
     }
     main > h3 {
-      margin-left: -425px;
+      margin-left: -333px;
     }
-  
+
+    .feedback-container {
+      margin-left: 9em;
+    }
+    
+    .feedback-students {
+      width: 44em;
+    }
+
     section.feedback-students > span:nth-child(1), section.feedback-students > span:nth-child(3) {
         display: none;
     }
@@ -230,23 +248,38 @@
       display: none;
     }
     .category-organization {
-       margin-left: -650px;
+      margin-left: -578px;
     }
+     
+    footer > p {
+      width: 21em;
+      padding: 1em 0px 1px 4em;
+      margin: 6em;
+      font-size: 18px;
+      text-align: center;
+    }
+
     footer > div.engineering-program > img {
-        width: 109%;
-        height: 66%;
-        margin-left: 0px;
+      width: 118%;
+      height: 66%;
+      margin-left: 7px;
+    }
+    footer > div.engineering-program > p {
+      width: 30em;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 122px;
     }
     footer > div.engineering-program > h2 {
-        padding-left: 1em;
-        margin-top: -13em;
-        width: 19em;
-        text-align: center;
+      padding-left: 6em;
+      margin-top: -12em;
+      width: 26em;
+      text-align: center;
     }
     .buttons {
        margin-left: -280px;
     }
     footer > div.engineering-program > div > button.button {
-       margin-left: 250px;
+      margin-left: 627px;
     }
 }
