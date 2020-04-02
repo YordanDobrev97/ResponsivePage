@@ -1,1 +1,1 @@
-# ResponsivePage
+# SoftUni Page made by design
